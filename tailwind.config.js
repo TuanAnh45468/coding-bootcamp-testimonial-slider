@@ -2,25 +2,25 @@
 module.exports = {
   content: ["./dist/**/*.{html,js}"],
   theme: {
-    colors:{
+    colors: {
       "dark-blue": "hsl(240, 38%, 20%)",
-      "grayish-blue": "hsl(240, 18%, 77%)"
+      "grayish-blue": "hsl(240, 18%, 77%)",
+      white: "#fff",
     },
-    screens:{
+    screens: {
       mobile: "375px",
-      laptop: "1440px"
+      laptop: "1440px",
     },
     extend: {
-      fontFamily:{
-        "inter": ['Inter', 'sans-serif']
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
       },
-      fontWeight:{
+      fontWeight: {
         light: 300,
         medium: 500,
-        bold: 700
-      }
+        bold: 700,
+      },
     },
   },
   plugins: [],
-}
-
+};

@@ -4,6 +4,6 @@
 
 @layer base {
     body{
-        @apply font-inter text-[32px]
+        @apply font-inter text-base
     }
 }
